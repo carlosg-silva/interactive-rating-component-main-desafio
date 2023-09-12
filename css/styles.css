@@ -1,0 +1,154 @@
+/* general styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* options card styles */
+.img-star img {
+  max-width: 100%;
+  width: 15px;
+  height: 15px;
+}
+
+.img-star {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  background-color: hsla(213, 14%, 35%, 0.281);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#container {
+  background-color: hsl(213, 19%, 18%);
+  width: 23rem;
+  height: 23rem;
+  padding: 30px;
+  border-radius: 8%;
+}
+
+#container h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+#container p {
+  color: hsl(217, 12%, 63%);
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* button styles */
+#list-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#list-options button {
+  background-color: hsla(213, 14%, 35%, 0.281);
+  color: hsl(217, 12%, 63%);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#list-options button:hover {
+  color: #fff;
+  background-color: hsl(217, 12%, 63%);
+}
+/* submit button */
+
+.submit {
+  display: flex;
+}
+
+#submit-button {
+  text-transform: uppercase;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  color: #fff;
+  padding: 10px;
+  flex: 1;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+#submit-button:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: #fff;
+  font-weight: 700;
+}
+
+/* hide */
+.hide {
+  display: none;
+}
+
+#list-options .active {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+
+#list-options .active:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+
+/* result */
+.img-thank {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.img-thank img {
+  width: 140px;
+}
+
+#result-option {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#result-option p {
+  color: hsl(25, 97%, 53%);
+  background-color: hsla(213, 14%, 35%, 0.281);
+  padding: 15px 15px;
+  display: inline-block;
+  border-radius: 20px;
+  line-height: 0;
+}
+
+#result-option {
+  margin-bottom: 20px;
+}
+
+.result-text {
+  text-align: center;
+}
+
+#container .result-text > p {
+  font-size: 0.9rem;
+}
